@@ -7,32 +7,32 @@ const Navbar = () => {
     <div className="lg:flex">
       {/* Home, Add Book, All Books, Borrowed
 Books, and Login */}
-      <li className="list-none font-semibold mx-3 p-3">
+      <li className="list-none font-semibold hover:bg-yellow-800 mx-3 p-1 rounded-e-badge  hover:text-white">
         <NavLink to="/">Home</NavLink>
       </li>
-      <li className="list-none font-semibold mx-3 p-3">
+      <li className="list-none font-semibold hover:bg-yellow-800 mx-3 p-1 rounded-e-badge   hover:text-white">
         <NavLink to="/addBook">Add Book</NavLink>
       </li>
-      <li className="list-none font-semibold mx-3 p-3">
+      <li className="list-none font-semibold hover:bg-yellow-800 mx-3 p-1 rounded-e-badge  hover:text-white">
         <NavLink to="/allBooks">All Books</NavLink>
       </li>
-      <li className="list-none font-semibold mx-3 p-3">
+      <li className="list-none font-semibold hover:bg-yellow-800 mx-3 p-1 rounded-e-badge  hover:text-white">
         <NavLink to="/borrowedBooks">Borrowed Books</NavLink>
       </li>
-      <li className="list-none font-semibold mx-3 p-3">
+      <li className="list-none font-semibold hover:bg-yellow-800 mx-3 p-1 rounded-e-badge  hover:text-white">
         <NavLink to="/login">Login</NavLink>
       </li>
     </div>
   );
 
   return (
-    <div className="navbar text-white bg-indigo-800 flex justify-between shadow-xl">
+    <div className="navbar text-white bg-indigo-800 flex justify-between sticky-top-0 shadow-xl my-10">
       {/* Dropdown  for mobile devices navbar */}
-      <details className="dropdown lg:hidden shadow-lg">
+      <details className="dropdown lg:hidden shadow-lg bg-transparent">
         <summary className="m-1 btn">
-          <RiArrowDropDownLine className="text-3xl" />
+          <RiArrowDropDownLine className="text-3xl bg-gray-400 rounded-e-badge" />
         </summary>
-        <div className="p-2 shadow menu dropdown-content z-[1] rounded-box w-52 text-black">
+        <div className="p-2 shadow menu dropdown-content z-[1] rounded-box w-52 text-yellow-800">
           {navLinks}
         </div>
       </details>

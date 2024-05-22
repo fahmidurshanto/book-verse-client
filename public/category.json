@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Fiction",
+    "image": "https://i.ibb.co/09hSzTR/fiction-thumb.jpg"
+  },
+  {
+    "name": "Science Fiction",
+    "image": "https://i.ibb.co/fM7Jbjq/science-fiction.jpg"
+  },
+  {
+    "name": "Fantasy",
+    "image": "https://i.ibb.co/YNH5dQ6/fantasy.webp"
+  },
+  {
+    "name": "Mystery",
+    "image": "https://i.ibb.co/8dq6ND6/mystery.png"
+  },
+  {
+    "name": "Romance",
+    "image": "https://i.ibb.co/4jLstdm/romance.jpg"
+  },
+  {
+    "name": "Horror",
+    "image": "https://i.ibb.co/MMSgj5k/horror.jpg"
+  },
+  {
+    "name": "Thriller",
+    "image": "https://i.ibb.co/Mn4smLw/thriller.jpg"
+  },
+  {
+    "name": "Historical Fiction",
+    "image": "https://i.ibb.co/mSR5s7H/historical-fiction.jpg"
+  },
+
+  {
+    "name": "Biography",
+    "image": "https://i.ibb.co/Rvd20cT/biography.jpg"
+  },
+  {
+    "name": "History",
+    "image": "https://i.ibb.co/DL1gnrV/history.jpg"
+  },
+  {
+    "name": "Science",
+    "image": "https://i.ibb.co/h8RrZXj/science.jpg"
+  },
+  {
+    "name": "Art",
+    "image": "https://i.ibb.co/5nq5FK9/art.jpg"
+  },
+  {
+    "name": "Music",
+    "image": "https://i.ibb.co/bgnm6Py/music.jpg"
+  },
+  {
+    "name": "Food & Drink",
+    "image": "https://i.ibb.co/Njd5gfB/food.jpg"
+  },
+  {
+    "name": "Travel",
+    "image": "https://i.ibb.co/p4ZNMLc/travel.jpg"
+  },
+  {
+    "name": "Self Help",
+    "image": "https://i.ibb.co/sjnMsr9/self-help.jpg"
+  },
+  {
+    "name": "Business",
+    "image": "https://i.ibb.co/wh0htsk/business.jpg"
+  },
+  {
+    "name": "Young Adult",
+    "image": "https://i.ibb.co/pJhJkSY/young-adult.jpg"
+  }
+]
