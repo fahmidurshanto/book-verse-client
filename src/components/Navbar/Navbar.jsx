@@ -26,7 +26,7 @@ Books, and Login */}
   );
 
   return (
-    <div className="navbar text-white bg-indigo-800 flex justify-between sticky-top-0 shadow-xl my-10">
+    <div className="navbar text-white bg-indigo-800 flex justify-between  shadow-xl mb-3 px-5">
       {/* Dropdown  for mobile devices navbar */}
       <details className="dropdown lg:hidden shadow-lg bg-transparent">
         <summary className="m-1 btn">
@@ -40,7 +40,7 @@ Books, and Login */}
       <Link to="/" className="btn btn-ghost text-xl font-bold ">
         <SiBookstack /> Book Verse
       </Link>
-      {/* Navlinks */}
+      {/* NavLujiiiiiiuy7inks */}
       <div className="hidden lg:block">{navLinks}</div>
       {/* user information */}
       <div className=" flex-col items-end">
