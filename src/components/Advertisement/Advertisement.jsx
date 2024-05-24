@@ -2,7 +2,7 @@ const Advertisement = () => {
   return (
     <div className="gap-10 shadow-lg container mx-auto">
       {/* first advertisement card */}
-      <div className="hero min-h-screen bg-base-200 my-10 shadow-2xl shadow-pink-300">
+      <div className="px-10 animate__animated animate__backInLeft hero min-h-screen bg-base-200 my-10 shadow-2xl shadow-pink-300">
         <div className="hero-content flex-col lg:flex-row">
           <img
             src="https://i.ibb.co/tmtFQ0d/borrow.jpg"
@@ -21,7 +21,7 @@ const Advertisement = () => {
         </div>
       </div>
       {/* second advertisement card */}
-      <div className="hero min-h-screen bg-base-200 my-10 shadow-2xl shadow-pink-300">
+      <div className="px-10 animate__animated animate__backInRight hero min-h-screen bg-base-200 my-10 shadow-2xl shadow-pink-300">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="https://i.ibb.co/TMKGdQD/bookworm.jpg"
@@ -38,7 +38,7 @@ const Advertisement = () => {
         </div>
       </div>
       {/* third advertisement card */}
-      <div className="hero min-h-screen bg-base-200 my-10 shadow-2xl shadow-pink-300">
+      <div className="px-10 animate__animated animate__backInLeft hero min-h-screen bg-base-200 my-10 shadow-2xl shadow-pink-300">
         <div className="hero-content flex-col lg:flex-row">
           <img
             src="https://i.ibb.co/ZMVG78v/library.jpg"
@@ -57,7 +57,7 @@ const Advertisement = () => {
         </div>
       </div>
       {/* forth advertisement card */}
-      <div className="hero min-h-screen bg-base-200 my-10 shadow-2xl shadow-pink-300">
+      <div className="px-10 animate__animated animate__backInRight hero min-h-screen bg-base-200 my-10 shadow-2xl shadow-pink-300">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="https://i.ibb.co/ZJwbrqg/computer.jpg"
@@ -76,7 +76,7 @@ const Advertisement = () => {
         </div>
       </div>
       {/* fifth advertisement card */}
-      <div className="hero min-h-screen bg-base-200 my-10 shadow-2xl shadow-pink-300">
+      <div className="px-10 animate__animated animate__backInLeft hero min-h-screen bg-base-200 my-10 shadow-2xl shadow-pink-300">
         <div className="hero-content flex-col lg:flex-row">
           <img
             src="https://i.ibb.co/PD9qVjw/genres.jpg"
