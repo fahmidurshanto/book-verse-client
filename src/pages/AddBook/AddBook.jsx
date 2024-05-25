@@ -1,5 +1,7 @@
 import axios from "axios";
 
+import Swal from "sweetalert2";
+
 const AddBook = () => {
   const handleAddBook = (e) => {
     e.preventDefault();
@@ -23,10 +25,25 @@ const AddBook = () => {
     axios
       .post("http://localhost:5000/books", newBook)
       .then((res) => {
-        console.log(res.data);
+        const book = res.data;
+        if (book.insertedId) {
+          Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: `${book.insertedId.slice(0, 6)} has been added to database`,
+            showConfirmButton: false,
+            timer: 1500,
+          });
+        }
       })
       .catch((error) => {
-        console.log(error.message);
+        Swal.fire({
+          position: "top-end",
+          icon: "error",
+          title: `${error.message}`,
+          showConfirmButton: false,
+          timer: 1500,
+        });
       });
   };
   return (

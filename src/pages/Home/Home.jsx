@@ -1,5 +1,6 @@
 import Advertisement from "../../components/Advertisement/Advertisement";
 import Categories from "../../components/Categories/Categories";
+import Footer from "../../components/Footer/Footer";
 import Slider from "../../components/Slider/Slider";
 import Watch from "../../components/Watch/Watch";
 
@@ -10,6 +11,7 @@ const Home = () => {
       <Slider></Slider>
       <Categories></Categories>
       <Advertisement></Advertisement>
+      <Footer></Footer>
     </div>
   );
 };
