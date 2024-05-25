@@ -16,9 +16,7 @@ const Categories = () => {
             {category.name}
           </h3>
           <img src={category.image} className="w-96 h-64 mx-auto" />
-          <button className="btn btn-outline btn-info my-5 w-full">
-            View details
-          </button>
+          <div className="btn btn-outline btn-info my-5 w-full">View Books</div>
         </div>
       ))}
     </div>

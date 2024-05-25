@@ -1,8 +1,11 @@
 const Footer = () => {
   return (
-    <footer className="footer footer-center p-10 bg-yellow-700 text-primary-content">
+    <footer className="shadow-2xl shadow-black mb-10 footer footer-center p-10 bg-yellow-700 text-primary-content">
       <aside>
-        <img src="../../../public/book_verse_logo.jpeg" alt="" />
+        <img
+          src="../../../public/book_verse_logo.jpeg"
+          className="rounded-2xl"
+        />
         <p className="font-bold">
           Book Verse Ltd. <br />
           Providing reliable ed tech products since 2024.
